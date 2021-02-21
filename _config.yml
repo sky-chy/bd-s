@@ -131,6 +131,7 @@ gitalk:
     repo: blog-comments
     clientID: c31e7ecdb4d2189be69d
     clientSecret:  b31241f653b1f89c83b5c6f0b66e7b3b6c2dba7c
+    proxy: https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
