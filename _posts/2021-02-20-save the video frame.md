@@ -6,29 +6,29 @@ description: 使用opencv-python对视频进行指定帧画面保存
 keywords: python,python3,opencv-python,视频处理,帧画面,自媒体
 ---
 
-## 情景导入
+### 一、情景导入
 最近我有位搞短视频的朋友跟我说，他上传视频到短视频平台，最后选择封面的时候，感觉那些平台给出来的截图有点鸡肋，但是又不想自己去看完视频来截取封面图片，问问我有没有什么办法可以让多个视频快速产生多张图片，最好是随机产生的，还需要可以自由控制生成数量的
 
-## 关键词
+### 二、关键词
 多个视频、随机产生、多张图片、快速、数量
 
-## 分析思路
+### 三、分析思路
 众所周知，视频是由一帧一帧的图片组合而成的，根据上述情景和关键词得知，需要对多个视频进行多张随机指定帧位置的画面来保存，所以得对源视频进行总帧数获取，在视频总帧数的前提下创建随机帧位置数值的数组，对视频进行帧画面判断是否在集合中，如果在随机帧位置数值的集合中，则保存下来。同时也有要求多个视频快速截取，所以得使用多线程技术
 
-## 工具环境
+### 四、工具环境
 + Python 3.7.0
 + opencv-python 4.5.1.48
 + PyCharm 2019.1.2
 + MacOS 10.15.7
 
-## 实现步骤
+### 五、实现步骤
 1. 首先获取到视频的路径，假设源视频的路径的变量为```video_paths```;
 1. 之后使用```ThreadPoolExecutor```来创建线程池，并对每个视频进行独立线程操作，假设线程池的变量为```executor```；
 1. 之后使用```opencv-python```模块的获取源视频总帧数，假设源视频总帧数的变量为```video_frame_sum```;
 1. 之后使用```random```模块在```video_frame_sum```的基础上去获取指定数量的随机数的数组，假设指定数量的变量为```random_num```，生成```random_num```个随机数并整合到数组的变量为```frame_position```;
 1. 之后使用```opencv-python```模块对源视频进行帧位置判断是否在```frame_position```这个数组中，如果成立，便将该帧画面保存到硬盘;
 
-## 实操代码
+### 六、实操代码
 ```python
 # -*- coding:utf8 -*-
 import os
@@ -107,7 +107,7 @@ class CaptureUtil:
 if __name__ == '__main__':
     CaptureUtil().main()
 ```
-## 归纳总结
+### 七、归纳总结
 * 从Python3.2开始，标准库为我们提供了concurrent.futures模块，它提供了ThreadPoolExecutor和ProcessPoolExecutor两个类，实现了对threading和multiprocessing的进一步抽象（这里主要关注线程池），不仅可以帮我们自动调度线程，还可以做到：
 
     * 主线程可以获取某一个线程（或者任务的）的状态，以及返回值；
@@ -177,11 +177,12 @@ if __name__ == '__main__':
     ...
     ```
 
-## 注意事项
+### 八、注意事项
 
 > 安装库时别混淆python-opencv2和opencv-python两个库
 
 > 使用opencv-python库时，注意是导入cv2 ，代码：```import cv2```
 
-## 相关资源
+### 九、相关资源
+
 [Python3 os.path模块文档](https://docs.python.org/zh-cn/3.7/library/os.path.html)
