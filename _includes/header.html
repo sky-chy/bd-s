@@ -83,11 +83,9 @@
 <body class="{{ page.class }}" data-mz="{{ page.class }}">
     <header class="site-header">
         <div class="container">
-            <h1><a href="{{ site.url }}/" title="{{ site.title }}">
-              {% if site.url contains 'chyblog.cn' %}
-              <img src="{{site.url}}/assets/images/logo.jpg"/> 
-              {% endif %}
-              {{ site.title }}
+            <h1><a href="{{ site.url }}/" title="{{ site.title }}" style="display: flex;align-items: center;"> 
+              <img src="{{site.url}}/assets/images/logo.png" height="28" width="28" style="display: block;margin-right: 10px;"/>  
+              <span>{{ site.title }}</span>
             </a></h1>
             <button class="collapsed mobile-visible" type="button" onclick="toggleMenu();">
               <span class="icon-bar"></span>
