@@ -225,6 +225,10 @@ keywords: python,7z,zip,加密
 
 > 执行cmd命令，注意文件路径如果有空格的，记得用“”包裹着，或者把空格转反斜杠+空格，例如`\ `，例如 `"/Users/public/Documents/Resource/a file.txt"`，或者 `/Users/public/Documents/Resource/a\ file.txt`
 
+> python3自带的zipfile不支持设置密码压缩，但是支持设置密码来解压，其他两个均支持设置密码加解压
+
+> 线程池map方法传多个产生时，需要保证参数的类型和数量保持一致
+
 ### 九、相关资源
 [python3 zipfile模块的文档](https://docs.python.org/zh-cn/3.7/library/zipfile.html)
 
