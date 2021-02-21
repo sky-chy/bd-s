@@ -22,11 +22,11 @@ keywords: python,python3,opencv-python,视频处理,帧画面,自媒体
 + MacOS 10.15.7
 
 ### 五、实现步骤
-1. 首先获取到视频的路径，假设源视频的路径的变量为```video_paths```;
-1. 之后使用```ThreadPoolExecutor```来创建线程池，并对每个视频进行独立线程操作，假设线程池的变量为```executor```；
-1. 之后使用```opencv-python```模块的获取源视频总帧数，假设源视频总帧数的变量为```video_frame_sum```;
-1. 之后使用```random```模块在```video_frame_sum```的基础上去获取指定数量的随机数的数组，假设指定数量的变量为```random_num```，生成```random_num```个随机数并整合到数组的变量为```frame_position```;
-1. 之后使用```opencv-python```模块对源视频进行帧位置判断是否在```frame_position```这个数组中，如果成立，便将该帧画面保存到硬盘;
+1. 首先获取到视频的路径，假设源视频的路径的变量为`video_paths`;
+1. 之后使用`ThreadPoolExecutor`来创建线程池，并对每个视频进行独立线程操作，假设线程池的变量为`executor`；
+1. 之后使用`opencv-python`模块的获取源视频总帧数，假设源视频总帧数的变量为`video_frame_sum`;
+1. 之后使用`random`模块在`video_frame_sum`的基础上去获取指定数量的随机数的数组，假设指定数量的变量为`random_num`，生成`random_num`个随机数并整合到数组的变量为`frame_position`;
+1. 之后使用`opencv-python`模块对源视频进行帧位置判断是否在`frame_position`这个数组中，如果成立，便将该帧画面保存到硬盘;
 
 ### 六、实操代码
 ```python

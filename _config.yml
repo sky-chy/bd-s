@@ -7,7 +7,7 @@ date_format: "ordinal"
 title: BD-S的博客
 subtitle: "同是寒窗苦读 怎愿甘拜下风！"
 description: "BD-S的博客，记录我的毕生经历，希望能给你带来帮助"
-keywords: 码志, BD, BD-s, 博客, 闷骚的程序员
+keywords: 码志, BD, BD-S, 博客, CHY, Python, Android, Vue, 自媒体
 timezone: Asia/Guangzhou
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -33,7 +33,7 @@ compress_html:
 word_count:
     enabled: true
 # 代码高亮风格，支持的 theme 列表见 https://github.com/mzlogin/rouge-themes
-highlight_theme: github
+highlight_theme: molokai
 
 # ---------------- #
 #      Author      #
