@@ -19,14 +19,14 @@ mindmap: true
 ### 超链接
 
 ```
-[靠谱-ing](https://mazhuang.org)
+[靠谱-ing](https://bd-s.vercel.app)
 
-<https://mazhuang.org>
+<https://bd-s.vercel.app>
 ```
 
-[靠谱-ing](https://mazhuang.org)  
+[靠谱-ing](https://bd-s.vercel.app)  
 
-<https://mazhuang.org>
+<https://bd-s.vercel.app>
 
 ### 列表
 
