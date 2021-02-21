@@ -5,8 +5,8 @@ baseurl:
 url: https://chyblog.cn
 date_format: "ordinal"
 title: BD-S的博客
-subtitle: "期待与您肩并肩闯世界！"
-description: "BD-S的博客，公众号：闷骚的程序员"
+subtitle: "期待与您并肩闯世界！"
+description: "BD-S的博客，记录我的毕生经历，希望能给你带来帮助"
 keywords: 码志, BD, BD-s, 博客, 闷骚的程序员
 timezone: Asia/Guangzhou
 encoding: "utf-8"
@@ -38,7 +38,7 @@ highlight_theme: molokai
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Chen Hongye
+author: CHY
 organization: 
 organization_url: 
 github_username: sky-chy
