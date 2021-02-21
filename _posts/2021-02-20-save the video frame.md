@@ -24,11 +24,19 @@ keywords: python,python3,opencv-python,视频处理,帧画面,自媒体
 ### 五、实现步骤
 1. 首先获取到视频的路径，假设源视频的路径的变量为`video_paths`;
 1. 之后使用`ThreadPoolExecutor`来创建线程池，并对每个视频进行独立线程操作，假设线程池的变量为`executor`；
+1. 创建归档后的目标文件夹
 1. 之后使用`opencv-python`模块的获取源视频总帧数，假设源视频总帧数的变量为`video_frame_sum`;
 1. 之后使用`random`模块在`video_frame_sum`的基础上去获取指定数量的随机数的数组，假设指定数量的变量为`random_num`，生成`random_num`个随机数并整合到数组的变量为`frame_position`;
 1. 之后使用`opencv-python`模块对源视频进行帧位置判断是否在`frame_position`这个数组中，如果成立，便将该帧画面保存到硬盘;
 
 ### 六、实操代码
+
+在终端上面执行以下命令安装opencv-python模块
+
+```python
+pip install opencv-python
+```
+
 ```python
 # -*- coding:utf8 -*-
 import os
@@ -40,8 +48,8 @@ from concurrent.futures.thread import ThreadPoolExecutor
 class CaptureUtil:
     # 初始化
     def __init__(self):
-        self.video_parent_path = '/Users/你的用户名/Documents/Video'  # 视频的父目录，需要指定自己的路径
-        self.target_path = '/Users/你的用户名/Documents/VideosCapture'  # 保存帧画面的目录，需要指定自己的路径
+        self.resource_path = '/Users/你的用户名/Documents/Resource'  # 视频的父目录，需要指定自己的路径，可全部覆盖重写
+        self.target_path = '/Users/你的用户名/Documents/Target'  # 保存帧画面的目录，需要指定自己的路径，可全部覆盖重写
 
         self.video_paths = []  # 所有源视频路径
         self.executor = ThreadPoolExecutor(10)  # 创建容量为10 的线程池
@@ -57,8 +65,8 @@ class CaptureUtil:
 
     # 获取源视频路径
     def __get_video_paths(self):
-        video_list = os.listdir(self.video_parent_path)
-        return [os.path.join(self.video_parent_path, video_name) for video_name in video_list]
+        video_list = os.listdir(self.resource_path)
+        self.video_paths = [os.path.join(self.resource_path, video_name) for video_name in video_list]
 
     # 获取视频总帧数
     def __get_video_frame_sum(self, path):
@@ -93,9 +101,9 @@ class CaptureUtil:
     # 主入口
     def main(self):
         try:
-            video_paths = self.__get_video_paths()
+            self.__get_video_paths()
             # 启动线程池
-            for data in self.executor.map(self.__get_video_frame_sum, video_paths):
+            for data in self.executor.map(self.__get_video_frame_sum, self.video_paths):
                 print(f'{data[0]}的抽帧操作{"成功" if data[1] else "失败"}')
             print('已完成全部操作，程序结束')
         except Exception as e:
@@ -186,3 +194,5 @@ if __name__ == '__main__':
 ### 九、相关资源
 
 [Python3 os.path模块文档](https://docs.python.org/zh-cn/3.7/library/os.path.html)
+
+[CaptureUtil.py文件下载](/static/python/CaptureUtil.py)
