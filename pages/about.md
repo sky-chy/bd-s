@@ -1,14 +1,14 @@
 ---
 layout: page
-title: About
+title: 关于本站
 description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+keywords: Chen Hongye, 陈宏业
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+我是CHY，码而生，码而立。
 
 仰慕「优雅编码的艺术」。
 
@@ -29,7 +29,7 @@ permalink: /about/
 </ul>
 
 
-## Skill Keywords
+## 技能关键词
 
 {% for skill in site.data.skills %}
 ### {{ skill.name }}

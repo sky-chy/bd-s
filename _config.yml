@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://bd-s.vercel.app/
+url: https://bd-s.vercel.app
 date_format: "ordinal"
 title: BD-S的博客
 subtitle: "期待与您肩并肩闯世界！"
