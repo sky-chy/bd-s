@@ -14,8 +14,6 @@ C --> Ctrl
 
 S --> Shift
 
-M --> Alt
-
 Cmd --> Command
 
 ### 导航与跳转
