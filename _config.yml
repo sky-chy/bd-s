@@ -43,7 +43,7 @@ organization:
 organization_url: 
 github_username: sky-chy
 location: Guangzhou, China
-email: chyhongye.sky@outlook.com
+email: 3166099078@qq.com
 
 # ---------------- #
 #    Navigation    #
@@ -127,8 +127,8 @@ gitment:
         client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: sky-chy
-    repo: bd-s
+    owner: sky-chy # GitHub用户名字
+    repo: bd-s # 刚才建立仓库的名字
     clientID: c31e7ecdb4d2189be69d
     clientSecret:  b31241f653b1f89c83b5c6f0b66e7b3b6c2dba7c
     proxy: https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token

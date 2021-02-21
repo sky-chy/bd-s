@@ -8,11 +8,13 @@ menu: 关于
 permalink: /about/
 ---
 
-我是CHY，码而生，码而立。
+出来工作好几年了，作为一名合格的程序猿
 
-仰慕「优雅编码的艺术」。
+我觉得需要在这个互联网世界里面留下一点点东西
 
-坚信熟能生巧，努力改变人生。
+在本站，你可以尽情的游览，同时还有更多有趣的文章等你发现
+
+如果有什么不懂的，可以加博主的微信一起探讨，添加时记得发送备注：博客看到的
 
 ## 联系
 
@@ -20,6 +22,7 @@ permalink: /about/
 {% for website in site.data.social %}
 <li>{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a></li>
 {% endfor %}
+<li>邮箱：<a href="mailto:{{ site.email }}" target="_blank">{{ site.email }}</a></li>
 {% if site.url contains 'chyblog.cn' %}
 <li>
 联系我：<br />
