@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 使用opencv-python对视频进行指定帧画面保存
-categories: python3
+categories: [python3,opencv-python]
 description: 使用opencv-python对视频进行指定帧画面保存
 keywords: python,python3,opencv-python,视频处理,帧画面,自媒体
 ---
@@ -170,6 +170,7 @@ if __name__ == '__main__':
 * random模块产生一个数组的随机数：
 
     * 使用randint函数结合for循环产生指定数量内的数值，代码如下：
+    
     ```python
     ...
     frame_position = [random.randint(10, video_frame_sum) for _ in range(self.random_num)]  # 需要获取的随机帧位置
