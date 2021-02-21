@@ -229,7 +229,7 @@ keywords: python,7z,zip,加密
 
 > 使用线程池技术为大量文件操作开启多个独立的工作流程
 
-> 线程池map方法传多个产生时，需要保证参数的类型和数量保持一致
+> 线程池map方法传多个参数的时候，需要保证参数的类型和数量保持一致
 
 ### 九、相关资源
 [python3 zipfile模块的文档](https://docs.python.org/zh-cn/3.7/library/zipfile.html)
