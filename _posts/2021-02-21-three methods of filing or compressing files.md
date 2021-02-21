@@ -8,35 +8,29 @@ keywords: python,7z,zip,加密
 ---
 
 ### 一、情景导入
-
 朋友说手上有很多文件需要快速实现归档或者压缩，并且有些文件还需要加入密码保护的，如果靠自己一个一个文件进行归档或者压缩，不知道要到什么时候才能完成，人工和时间成本相对较高，问我有没有什么办法可以实现大量文件快速压缩，同时还能设定是否开启密码保护功能
 
 好，安排！！！
 
 ### 二、关键词
-
 大量文件、归档、压缩、密码保护、成本
 
 ### 三、分析思路
-
 根据上述情景和关键词得知，需用实现对多个文件进行自动化归档或者压缩打包
 
 ### 四、工具环境
-
 + Python 3.7.0
 + py7zr 0.13.0
 + PyCharm 2019.1.2
 + MacOS 10.15.7
 
 ### 五、实现步骤
-
 1. 首选获取到源文件的路径，假设源文件的路径变量为`file_paths`;
 1. 之后使用ThreadPoolExecutor来创建线程池，并对每个文件进行独立线程操作，假设线程池的变量为`executor`；
 1. 创建归档后的目标文件夹
 1. 开始[加密]归档文件到目标文件夹
 
 ### 六、实操代码
-
 + 第1种方法，使用zipfile模块
 
   ```python
@@ -218,19 +212,24 @@ keywords: python,7z,zip,加密
   ```
 
 ### 七、归纳总结
+* 遇到一个问题，需要学会举一反三去思考来解决它，博主始终相信一句话，问题既然是人类产生的，人类就肯定可以解决，只是时间的问题而已；不过，本文恰好用了三种办法去解决一个小问题，虽然有点小瑕疵，但是总体过得去
 
-无
+* zipfile模块和系统命令都是Python3自带的，不需要额外安装，负责调用即可
+
+* 本文继续使用线程池技术去进行多线程操作多个文件
+
+* 文中涉及的zipfile、py7zr模块还有更多的用法等待挖掘
 
 ### 八、注意事项
-
 > zipfile模块归档文件，会一起把相关路径打包进去，可能是博主知识浅薄，还不知道怎么去掉这个路径，这个等有空再研究了
 
-> 执行cmd命令，注意文件路径如果有空格的，记得用“”包裹着，例如 `"/Users/public/Documents/Resource/a file.txt"`，或者使用 `/Users/public/Documents/Resource/a\ file.txt`
+> 执行cmd命令，注意文件路径如果有空格的，记得用“”包裹着，或者把空格转反斜杠+空格，例如`\ `，例如 `"/Users/public/Documents/Resource/a file.txt"`，或者 `/Users/public/Documents/Resource/a\ file.txt`
 
 ### 九、相关资源
-
 [python3 zipfile模块的文档](https://docs.python.org/zh-cn/3.7/library/zipfile.html)
 
-[zip命令的常用参数](https://www.cnblogs.com/lesten/p/11603998.html)
+[系统zip命令的常用参数介绍](https://www.cnblogs.com/lesten/p/11603998.html)
+
+[py7zr模块的官网](https://github.com/miurahr/py7zr)
 
 [ZipFileUtil.py文件下载](/static/python/ZipFileUtil.py)

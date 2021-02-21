@@ -186,13 +186,11 @@ if __name__ == '__main__':
     ```
 
 ### 八、注意事项
-
 > 安装库时别混淆python-opencv2和opencv-python两个库
 
 > 使用opencv-python库时，注意是导入cv2 ，代码：```import cv2```
 
 ### 九、相关资源
-
 [Python3 os.path模块文档](https://docs.python.org/zh-cn/3.7/library/os.path.html)
 
 [CaptureUtil.py文件下载](/static/python/CaptureUtil.py)
