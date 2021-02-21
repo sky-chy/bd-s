@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 使用opencv-python对视频进行指定帧抽帧 
+title: 使用opencv-python对视频进行指定帧画面保存
 categories: python3
-description: 使用opencv-python对视频进行指定帧抽帧 
+description: 使用opencv-python对视频进行指定帧画面保存
 keywords: python3 opencv-python 视频处理 帧画面 自媒体
 ---
 
