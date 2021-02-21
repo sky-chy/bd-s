@@ -1,11 +1,22 @@
-- name: 软件工程师关键字
+- name: 软件开发工程师关键字
+  keywords:
+      - Python
+      - Android
+      - Uni-App
+      - 小程序开发
+      - Vue
+      - Web前端
+
+- name: 桌面开发关键字
   keywords:
       - Java
       - Python
       - Vue
+      - Electron-Vue
 
 - name: 移动开发关键词
   keywords:
       - Android
       - Uni-App
- 
+      - 微信小程序
+      - Html5
