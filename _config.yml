@@ -128,7 +128,7 @@ gitment:
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: sky-chy
-    repo: blog-comments
+    repo: bd-s
     clientID: c31e7ecdb4d2189be69d
     clientSecret:  b31241f653b1f89c83b5c6f0b66e7b3b6c2dba7c
     proxy: https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token
