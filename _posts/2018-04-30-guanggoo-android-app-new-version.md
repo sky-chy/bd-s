@@ -18,19 +18,19 @@ keywords: 光谷, guanggoo, Android
 
 *首页*
 
-![](https://bd-s.vercel.app/guanggoo-android/screenshots/topic-list.png)
+![](https://chyblog.cn/guanggoo-android/screenshots/topic-list.png)
 
 *帖子详情*
 
-![](https://bd-s.vercel.app/guanggoo-android/screenshots/topic-detail.png)
+![](https://chyblog.cn/guanggoo-android/screenshots/topic-detail.png)
 
 *节点列表*
 
-![](https://bd-s.vercel.app/guanggoo-android/screenshots/nodes-list.png)
+![](https://chyblog.cn/guanggoo-android/screenshots/nodes-list.png)
 
 *抽屉*
 
-![](https://bd-s.vercel.app/guanggoo-android/screenshots/drawer.png)
+![](https://chyblog.cn/guanggoo-android/screenshots/drawer.png)
 
 挺赞的吧~然后是少得可怜的功能更新：
 
@@ -42,7 +42,7 @@ keywords: 光谷, guanggoo, Android
 
 最后奉上下载二维码：
 
-![](https://bd-s.vercel.app/guanggoo-android/qrcode.png)
+![](https://chyblog.cn/guanggoo-android/qrcode.png)
 
 在微信里识别二维码后需要点击右上角从浏览器打开链接，然后下载 APK 安装。
 

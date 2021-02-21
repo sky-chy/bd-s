@@ -19,14 +19,14 @@ mindmap: true
 ### 超链接
 
 ```
-[靠谱-ing](https://bd-s.vercel.app)
+[靠谱-ing](https://chyblog.cn)
 
-<https://bd-s.vercel.app>
+<https://chyblog.cn>
 ```
 
-[靠谱-ing](https://bd-s.vercel.app)  
+[靠谱-ing](https://chyblog.cn)  
 
-<https://bd-s.vercel.app>
+<https://chyblog.cn>
 
 ### 列表
 

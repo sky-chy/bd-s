@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://bd-s.vercel.app
+url: https://chyblog.cn
 date_format: "ordinal"
 title: BD-S的博客
 subtitle: "期待与您肩并肩闯世界！"
@@ -26,7 +26,7 @@ components:
         enabled: true
         start_date: 2020-05-03
 # 压缩页面内容
-compress_html:
+compress_html:`
   clippings: all
   comments: ["<!--", "-->"]
 # 文章字数统计
@@ -38,7 +38,7 @@ highlight_theme: molokai
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Chen Honeye
+author: Chen Hongye
 organization: 
 organization_url: 
 github_username: sky-chy

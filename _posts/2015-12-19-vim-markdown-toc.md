@@ -130,11 +130,11 @@ keywords: vim, markdown, toc
 
 ![](https://github.com/mzlogin/vim-markdown-toc/raw/master/screenshots/english.gif)
 
-[使用本插件生成 TOC 的中文文档在线示例](https://bd-s.vercel.app/wiki/chinese-copywriting-guidelines/)
+[使用本插件生成 TOC 的中文文档在线示例](https://chyblog.cn/wiki/chinese-copywriting-guidelines/)
 
 ![](https://github.com/mzlogin/vim-markdown-toc/raw/master/screenshots/chinese.gif)
 
 ## 参考链接
 
-* [GFM 与 Redcarpet 的不同点](https://bd-s.vercel.app/2015/12/05/diff-between-gfm-and-redcarpet/)
+* [GFM 与 Redcarpet 的不同点](https://chyblog.cn/2015/12/05/diff-between-gfm-and-redcarpet/)
 * [ajorgensen/vim-markdown-toc](https://github.com/ajorgensen/vim-markdown-toc)
