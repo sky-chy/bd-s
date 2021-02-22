@@ -5,8 +5,8 @@ baseurl:
 url: https://chyblog.cn
 date_format: "ordinal"
 title: G.M的博客
-subtitle: "同是寒窗苦读 怎愿甘拜下风！"
-description: "G.M的博客，记录我的毕生经历，希望能给你带来帮助"
+subtitle: "同是寒窗苦读 怎愿甘拜下风"
+description: "CHY的博客，一个不定时分享Windows操作、黑苹果安装和使用、Python、Android、Electron-Vue、Vue、Uni-app和小程序开发的教程或者资源的网站，免费提供一切在教程中出现的资源，同时也不定时提供一些可玩性比较高的软件，期待您的到来！！！"
 keywords: 码志, G.M, 博客, CHY, Python, Android, Vue, 自媒体
 timezone: Asia/Guangzhou
 encoding: "utf-8"
