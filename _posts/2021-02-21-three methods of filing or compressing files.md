@@ -1,9 +1,9 @@
 ---
 layout: post
-title: python3对文件的3种归档或者压缩打包方法
-categories: python3
+title: Python3对文件的3种归档或者压缩打包方法
+categories: Python3
 author: CHY
-description: python3对文件的3种归档或者压缩压缩打包方法
+description: Python3对文件的3种归档或者压缩压缩打包方法
 keywords: python,7z,zip,加密
 ---
 
@@ -225,14 +225,14 @@ keywords: python,7z,zip,加密
 
 > 执行cmd命令，注意文件路径如果有空格的，记得用“”包裹着，或者把空格转反斜杠+空格，例如`\ `，例如 `"/Users/public/Documents/Resource/a file.txt"`，或者 `/Users/public/Documents/Resource/a\ file.txt`
 
-> python3自带的zipfile不支持设置密码压缩，但是支持设置密码来解压，其他两个均支持设置密码加解压
+> Python3自带的zipfile不支持设置密码压缩，但是支持设置密码来解压，其他两个均支持设置密码加解压
 
 > 使用线程池技术为大量文件操作开启多个独立的工作流程
 
 > 线程池map方法传多个参数的时候，需要保证参数的类型和数量保持一致
 
 ### 九、相关资源
-[python3 zipfile模块的文档](https://docs.python.org/zh-cn/3.7/library/zipfile.html)
+[Python3 zipfile模块的文档](https://docs.python.org/zh-cn/3.7/library/zipfile.html)
 
 [系统zip命令的常用参数介绍](https://www.cnblogs.com/lesten/p/11603998.html)
 
