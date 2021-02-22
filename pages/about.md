@@ -23,8 +23,12 @@ permalink: /about/
 <li>邮箱：<a href="mailto:{{ site.email }}" target="_blank">{{ site.email }}</a></li>
 {% if site.url contains 'chyblog.cn' %}
 <li>
-联系我：<br />
-<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/qrcode.jpg" alt="闷骚的程序员" />
+博主微信：<br />
+<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/wx_qrcode.jpg" alt="G.M" />
+</li>
+<li>
+博主抖音：<br />
+<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/dy_qrcode.jpg" alt="G.M" />
 </li>
 {% endif %}
 </ul>
