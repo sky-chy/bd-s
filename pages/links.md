@@ -7,23 +7,15 @@ comments: true
 menu: 链接
 permalink: /links/
 ---
-
-> God made relatives. Thank God we can choose our friends.
-
-<ul>
+ 
 {% for link in site.data.links %}
-  {% if link.src == 'life' %}
-  <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
-  {% endif %}
+> {{ link.type }}
+  <ul>
+    {% for ch in link.children %}
+      <li style="margin-bottom:10px"><a href="{{ ch.url }}" target="_blank">
+        {{ ch.name }}
+        {% if ch.des %}<div>{{ ch.des }}</div>{% endif %}
+      </a></li> 
+    {% endfor %}
+  </ul>
 {% endfor %}
-</ul>
-
-> 友情链接
-
-<ul>
-{% for link in site.data.links %}
-  {% if link.src == 'www' %}
-  <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
