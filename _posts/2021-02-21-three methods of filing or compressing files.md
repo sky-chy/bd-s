@@ -4,13 +4,11 @@ title: Python3对文件的3种归档或者压缩打包方法
 categories: Python3
 author: CHY
 description: Python3对文件的3种归档或者压缩压缩打包方法
-keywords: python,7z,zip,加密
+keywords: CHY,G.M,博客,教程,网站,python,7z,zip,加密
 ---
 
 ### 一、情景导入
-朋友说手上有很多文件需要快速实现归档或者压缩，并且有些文件还需要加入密码保护的，如果靠自己一个一个文件进行归档或者压缩，不知道要到什么时候才能完成，人工和时间成本相对较高，问我有没有什么办法可以实现大量文件快速压缩，同时还能设定是否开启密码保护功能
-
-好，安排！！！
+朋友说手上有很多文件需要快速实现归档或者压缩，并且有些文件还需要加入密码保护的，如果靠自己一个一个文件进行归档或者压缩，不知道要到什么时候才能完成，人工和时间成本相对较高，问我有没有什么办法可以实现大量文件快速压缩，同时还能设定是否开启密码保护功能，话不多说，搞起！
 
 ### 二、关键词
 大量文件、归档、压缩、密码保护、成本
@@ -238,4 +236,4 @@ keywords: python,7z,zip,加密
 
 [py7zr模块的官网](https://github.com/miurahr/py7zr)
 
-[ZipFileUtil.py文件下载](/static/python/ZipFileUtil.py)
+[ZipFileUtil.py文件下载](/static/files/python/ZipFileUtil.py)

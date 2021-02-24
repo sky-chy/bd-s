@@ -3,11 +3,11 @@ layout: post
 title: 使用opencv-python对视频进行指定帧画面保存
 categories: [Python3,opencv-python]
 description: 使用opencv-python对视频进行指定帧画面保存
-keywords: python,Python3,opencv-python,视频处理,帧画面,自媒体
+keywords: CHY,G.M,博客,教程,网站,python,Python3,opencv-python,视频处理,帧画面,自媒体
 ---
 
 ### 一、情景导入
-最近我有位搞短视频的朋友跟我说，他上传视频到短视频平台，最后选择封面的时候，感觉那些平台给出来的截图有点鸡肋，但是又不想自己去看完视频来截取封面图片，问问我有没有什么办法可以让多个视频快速产生多张图片，最好是随机产生的，还需要可以自由控制生成数量的
+最近我有位搞短视频的朋友跟我说，他上传视频到短视频平台，最后选择封面的时候，感觉那些平台给出来的截图有点鸡肋，但是又不想自己去看完视频来截取封面图片，问问我有没有什么办法可以让多个视频快速产生多张图片，最好是随机产生的，还需要可以自由控制生成数量的，话不多说，搞起！
 
 ### 二、关键词
 多个视频、随机产生、多张图片、快速、数量
@@ -173,7 +173,7 @@ if __name__ == '__main__':
 
     * os.path.basename 是获取路径下的文件名称
 
-    * 更多说明，请参考[相关资源](#相关资源)的Python3 os.path模块文档
+    * 更多说明，请参考[相关资源](#九相关资源)的Python3 os.path模块文档
 
 * random模块产生一个数组的随机数：
 
@@ -193,4 +193,4 @@ if __name__ == '__main__':
 ### 九、相关资源
 [Python3 os.path模块文档](https://docs.python.org/zh-cn/3.7/library/os.path.html)
 
-[CaptureUtil.py文件下载](/static/python/CaptureUtil.py)
+[CaptureUtil.py文件下载](/static/files/python/CaptureUtil.py)

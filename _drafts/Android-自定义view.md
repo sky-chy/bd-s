@@ -41,5 +41,4 @@ keywords: keyword1, keyword2
 无
 
 ### 九、相关资源
-
-无
+[Android自定义View全解](https://www.jianshu.com/p/705a6cb6bfee)
