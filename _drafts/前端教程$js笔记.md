@@ -1,4 +1,12 @@
-[TOC]
+---
+topmost: false #置顶
+layout: post
+title: template page
+categories: [cate1, cate2]
+author: CHY
+description: some word here
+keywords: keyword1, keyword2
+---
 ## 一、JQuery
 ### 1、改变浏览器窗口大小的时候让页面自动刷新
 ```javascript

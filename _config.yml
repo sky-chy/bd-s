@@ -132,8 +132,9 @@ gitalk:
     owner: sky-chy # GitHub用户名字
     repo: bd-s # 刚才建立仓库的名字
     clientID: c31e7ecdb4d2189be69d
-    clientSecret:  b31241f653b1f89c83b5c6f0b66e7b3b6c2dba7c
+    clientSecret:  503c09fb55ecf7b63b9d1bae1837d162b6503354
     proxy: https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token
+    
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 

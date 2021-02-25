@@ -1,4 +1,13 @@
-[TOC]
+---
+topmost: false #置顶
+layout: post
+title: template page
+categories: [cate1, cate2]
+author: CHY
+description: some word here
+keywords: keyword1, keyword2
+---
+
 # 一、系统以及环境
 服务器系统：Ubuntu 16.04
 项目环境：python 3.7 

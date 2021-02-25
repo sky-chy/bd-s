@@ -1,9 +1,7 @@
 ---
-topmost: false
 layout: post
 title: Android四大组件以及相关介绍——Activity
 categories: [Android,四大组件]
-author: CHY
 description:  Android四大组件以及相关介绍—Activity
 keywords: CHY,G.M,博客,教程,网站,Android,四大组件,Activity
 ---
@@ -13,7 +11,6 @@ keywords: CHY,G.M,博客,教程,网站,Android,四大组件,Activity
 学习四大组件，建议先从Activity开始，因为这个是在Android应用里面最常见的一个组件，本文只介绍Activity，话不多说，搞起！
 
 ### 二、正文
-
 <span style="color:red;font-weight:bold">Activity</span>：通常就代表手机中屏幕中能够与用户交互的一些界面，一个Activity通常就是一个独立的窗口，在我们日常开发中使用Activity最多，并且Activity是以任务栈的机制去执行，即“后进先出”的结构，举个例子，若我们在不修改启动模式的情况下多次启动同一个Activity。系统会创建多个实例依次放入任务栈中。当按返回键返回时，每按一次，一个Activity出栈，直到栈空为止。当栈中无任何Activity时，系统就会回收此任务栈。
 
 以下是在Activity的开发过程中会经常接触的一些知识：
