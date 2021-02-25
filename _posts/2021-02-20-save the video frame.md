@@ -3,7 +3,7 @@ layout: post
 title: 使用opencv-python对视频进行指定帧画面保存
 categories: [Python3,opencv-python]
 description: 使用opencv-python对视频进行指定帧画面保存
-keywords: CHY,G.M,博客,教程,网站,python,Python3,opencv-python,视频处理,帧画面,自媒体
+keywords: 陈宏业, CHY, G.M, 博客, 教程, 网站, python, Python3, opencv-python, 视频处理, 帧画面, 自媒体
 ---
 
 ### 一、情景导入

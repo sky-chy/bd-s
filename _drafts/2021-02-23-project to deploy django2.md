@@ -5,7 +5,7 @@ title: 在Ubuntu 16.04中结合Uwsgi+Nginx来部署Django2的项目
 categories: [Python3,Django2]
 author: CHY
 description: 在Ubuntu 16.04中结合Uwsgi+Nginx来部署Django2的项目
-keywords: Python3,Django2,Python,Django,Nginx,Uwsgi,Ubuntu,服务器,阿里云,腾讯云
+keywords: 陈宏业, Python3, Django2, Python, Django, Nginx, Uwsgi, Ubuntu, 服务器, 阿里云, 腾讯云
 ---
 
 ### 一、情景导入

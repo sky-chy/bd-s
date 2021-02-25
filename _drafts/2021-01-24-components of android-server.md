@@ -5,7 +5,7 @@ title: Android四大组件以及相关用法——Server
 categories: [Android,四大组件]
 author: CHY
 description:  Android四大组件以及相关用法—Server
-keywords: CHY,G.M,博客,教程,网站,Android,四大组件,Activity,Server,ContentProvider,Broadcast,BroadcastReceiver
+keywords: CHY, G.M, 博客, 教程, 网站, Android, 四大组件, Activity, Server, ContentProvider, Broadcast, BroadcastReceiver
 ---
 
 ### 一、前言
