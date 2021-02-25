@@ -5,7 +5,7 @@ title: Android四大组件以及相关用法——ContentProvider
 categories: [Android,四大组件]
 author: CHY
 description:  Android四大组件以及相关用法—ContentProvider
-keywords: 陈宏业, CHY, G.M, 博客, 教程, 网站, Android, 四大组件, Activity, Server, ContentProvider, Broadcast, BroadcastReceiver
+keywords: 陈宏业, CHY, 一切随猿, 博客, 教程, 网站, Android, 四大组件, Activity, Server, ContentProvider, Broadcast, BroadcastReceiver
 ---
 
 ### 一、前言

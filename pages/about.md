@@ -24,11 +24,11 @@ permalink: /about/
 {% if site.url contains 'chyblog.cn' %}
 <li>
 博主微信：<br />
-<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/wx_qrcode.jpg" alt="G.M" />
+<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/wx_qrcode.jpg" alt="一切随猿" />
 </li>
 <li>
 博主抖音：<br />
-<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/dy_qrcode.jpg" alt="G.M" />
+<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/dy_qrcode.jpg" alt="一切随猿" />
 </li>
 {% endif %}
 </ul>

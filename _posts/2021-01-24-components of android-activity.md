@@ -3,7 +3,7 @@ layout: post
 title: Android四大组件以及相关用法——Activity
 categories: [Android,四大组件]
 description:  Android四大组件以及相关用法—Activity
-keywords: 陈宏业, CHY, G.M, 博客, 教程, 网站, Android, 四大组件, Activity
+keywords: 陈宏业, CHY, 一切随猿, 博客, 教程, 网站, Android, 四大组件, Activity
 ---
 
 ### 一、前言
