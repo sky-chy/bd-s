@@ -79,7 +79,7 @@ keywords: CHY,G.M,博客,教程,网站,Android,四大组件,Server,服务
 
   1. 如何保证Server不被杀死？
 
-      > 设置优先级，通过在清单文件中intent-filter中通过android：priority=“1000”来设置优先级，优先级越高越不容易被杀死
+      > 设置优先级，通过在清单文件中intent-filter中通过```android:priority=“1000”```来设置优先级，优先级越高越不容易被杀死
 
       > 在onStartCommend中调用startForeground将service提升为前台进程，最后记得在onStop中调用stopForeground
 
