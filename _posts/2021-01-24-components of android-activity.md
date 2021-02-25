@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Android四大组件以及相关介绍——Activity
+title: Android四大组件以及相关用法——Activity
 categories: [Android,四大组件]
-description:  Android四大组件以及相关介绍—Activity
+description:  Android四大组件以及相关用法—Activity
 keywords: CHY,G.M,博客,教程,网站,Android,四大组件,Activity
 ---
 
