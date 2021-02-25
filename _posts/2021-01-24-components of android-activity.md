@@ -19,19 +19,19 @@ keywords: CHY,G.M,博客,教程,网站,Android,四大组件,Activity
 
       ![生命周期图](/static/images/android/activity life cycle.webp)
 
-      > onCreate：不可见状态。第一次创建时调用，创建视图，并且能传递该Activity的上一个状态的Bundle参数。
+      > onCreate()：不可见状态。第一次创建时调用，创建视图，并且能传递该Activity的上一个状态的Bundle参数。
       
-      > onStart：可见状态，可以显示Activity界面，但此时不能与用户交互。
+      > onStart()：可见状态，可以显示Activity界面，但此时不能与用户交互。
       
-      > onResume：可见状态，当前界面可以进行交互。
+      > onResume()：可见状态，当前界面可以进行交互。
       
-      > onPause：可见状态，此时Activity正在停止，接下来会调用onStop。在onPause中可以进行一些数据存储、动画停止、资源回收等。
+      > onPause()：可见状态，此时Activity正在停止，接下来会调用onStop()。在onPause()中可以进行一些数据存储、动画停止、资源回收等。
       
-      > onStop：不可见状态，当前Activity停止或者被完全覆盖，当前Activity不可见，运行在后台。可以做一些资源释放的操作，不能做太耗时的操作。
+      > onStop()：不可见状态，当前Activity停止或者被完全覆盖，当前Activity不可见，运行在后台。可以做一些资源释放的操作，不能做太耗时的操作。
       
-      > onRestart：在Activity重新启动时调用，由不可见状态变为可见状态。一般打开一个新的Activity在返回之前的Activity，旧的Activity会调用该生命周期。
+      > onRestart()：在Activity重新启动时调用，由不可见状态变为可见状态。一般打开一个新的Activity在返回之前的Activity，旧的Activity会调用该生命周期。
       
-      > onDestory：Activity销毁。一般可以做一些回收工作和最终资源释放。
+      > onDestory()：Activity销毁。一般可以做一些回收工作和最终资源释放。
       
       > Activity生命周期的一些例子：
         - 当Activity正常启动：onCreat➜onStart➜onResume
