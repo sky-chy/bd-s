@@ -4,7 +4,7 @@ title: Python3对文件的3种归档或者压缩打包方法
 categories: Python3
 author: CHY
 description: Python3对文件的3种归档或者压缩压缩打包方法
-keywords: 陈宏业, CHY, 一切随猿, 博客, 教程, 网站, python, 7z, zip, 加密
+keywords: Python3教程, Python教程, 7z压缩, py7zr使用, 文件归档
 ---
 
 ### 一、情景导入

@@ -5,7 +5,7 @@ title: Android 各版本API的基本特性
 categories: [Android, SDK]
 author: CHY
 description: Android 各API的基本特性
-keywords: 陈宏业, CHY, 一切随猿, 博客, 教程, 网站, SDK, Android, SDK特性
+keywords: Android SDK, Android, SDK特性, 安卓SDK
 ---
 
 ### 一、前言
