@@ -54,11 +54,13 @@ keywords: CHY,G.M,博客,教程,网站,Android,四大组件,Server,服务
         - 单次：onCreate()➜onStartCommand()
         - 多次：onCreate()➜onStartCommand()➜onStartCommand() ……
         - 多次启动服务onCreate只会执行一次，onStartCommand()会执行多次
-        - 停止服务：stopService()➜onDestroy()
+        - 停止服务：stopService()，Server内执行onDestroy()
 
       > 第二种，bind方式，该方式的执行过程为onCreate➜onBind➜onUnbind➜onDestory：
         - 通过bind方式开启服务会与调用者生命周期进行绑定，并且能够与activity进行通信，调用者销毁service也会销毁
-
+        - 绑定服务：bindService()，Server内执行onCreate()➜onBind()
+        - 解绑服务：unbindService()，Server内执行onUnbind()➜onDestroy()
+        
       > 先bind再进行start：
         - onCreate➜onBind➜onServiceConnected➜onStartCommand➜onUnbind➜onDestory
 
