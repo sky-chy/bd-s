@@ -49,16 +49,21 @@ keywords: CHY,G.M,博客,教程,网站,Android,四大组件,Server,服务
       ![生命周期图](/static/images/android/server start mode.webp)
 
       > 第一种，start方式，该方式的执行过程为onCreate➜onStartCommad➜onDestory：
-        - 通过bind方式开启服务会与调用者生命周期进行绑定，	并且能够与activity进行通信，调用者销毁service也会销毁
-
-      > 第二种，bind方式，该方式的执行过程为onCreate->onBind->onUnbind->onDestory：
         - 用过start方式开启服务即便是调用者销毁service也不会被销毁，与现有的activity分离，不能与activity进行通信
+        - 启动服务：startService()
+        - 单次：onCreate()➜onStartCommand()
+        - 多次：onCreate()➜onStartCommand()➜onStartCommand() ……
+        - 多次启动服务onCreate只会执行一次，onStartCommand()会执行多次
+        - 停止服务：stopService()➜onDestroy()
+
+      > 第二种，bind方式，该方式的执行过程为onCreate➜onBind➜onUnbind➜onDestory：
+        - 通过bind方式开启服务会与调用者生命周期进行绑定，并且能够与activity进行通信，调用者销毁service也会销毁
 
       > 先bind再进行start：
-        - onCreate->onBind->onServiceConnected->onStartCommand->onUnbind->onDestory
+        - onCreate➜onBind➜onServiceConnected➜onStartCommand➜onUnbind➜onDestory
 
       > 先start再进行bind:
-        - onCreate->onStartCommand->onBind->onServiceConnected->onUnbind->onDestory
+        - onCreate➜onStartCommand➜onBind➜onServiceConnected➜onUnbind➜onDestory
 
   1. Server执行在哪个线程？能否进行耗时操作？
       
@@ -101,7 +106,9 @@ keywords: CHY,G.M,博客,教程,网站,Android,四大组件,Server,服务
       > 弹出toast就需要一个上下文对象context，而Service本身就是Context的子类，因此在Service中弹出Toast是完全可以的。
 
 ### 三、注意事项
-  1. 需要注意两种启动方式的区别
-  
+  1. 需要注意两种启动方式的区别：
+  * startService()：开启Service，调用者退出后Service仍然存在。
+  * bindService()：开启Service，调用者退出后Service也随即退出。
+
 ### 四、相关资源
 无
