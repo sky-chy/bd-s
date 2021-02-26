@@ -7,7 +7,7 @@ date_format: "ordinal"
 title: 一切随猿
 subtitle: "同是寒窗苦读 怎愿甘拜下风"
 description: "陈宏业的个人网站，一个技术小白不定时分享Windows操作、黑苹果安装和使用、Python、Android、Electron-Vue、Vue、Uni-app和小程序开发的教程或者资源的网站，免费提供一切在教程中出现的资源，也不定时提供一些可玩性比较高的软件"
-keywords: 陈宏业, 一切随猿, CHY, Python, Android, Vue, UniApp, Uni-App, 自媒体
+keywords: 陈宏业, 一切随猿, CHY, Python, Android, Vue, UniApp, Uni-App, 自媒体, chyblog
 timezone: Asia/Guangzhou
 encoding: "utf-8"
 side_bar_repo_limit: 5
