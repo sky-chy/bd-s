@@ -5,13 +5,12 @@ title: Android四大组件以及相关用法——ContentProvider
 categories: [Android,四大组件]
 author: CHY
 description:  Android四大组件以及相关用法—ContentProvider
-keywords:  Android, 四大组件, Activity, Server, ContentProvider, Broadcast, BroadcastReceiver
+keywords:  Android, 四大组件, ContentProvider, Android四大组件
 ---
 
 ### 一、前言
-不管学习什么知识，都得先打好基础，就好比建房子，没有基础，楼房建得再好，随时都有可能倒塌；对于学习Android开发知识的人来说也一样，都得从从基础学起；Android的四大组件(Activity, Server, ContentProvider, Broadcast)就是基础之一，还有五大储存，还有六大布局，把这些基础研究透了，Android开发的也就信手拈来了
-
-学习四大组件，建议先从Activity开始，因为这个是在Android应用里面最常见的一个组价，其次是Server，再者是ContentProvider，最后是Broadcast，话不多说，搞起！
+对于学习Android开发知识的人来说，得从Android四大组件学起；Android的四大组件就是基础之一，其次还有五大储存、六大布局，把这些基础研究透了，Android开发的也就信手拈来了
+学习四大组件，建议先从[Activity](/2021/01/24/components-of-android-activity/)y开始，因为这个是在Android应用里面最常见的一个组件，之后是[Server](/2021/01/24/components-of-android-server/)，其次是[Broadcast](/2021/01/24/components-of-android-broadcast/)，本文只介绍ContentProvider，话不多说，搞起！
 
 ### 二、正文
 

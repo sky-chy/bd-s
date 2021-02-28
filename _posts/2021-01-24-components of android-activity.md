@@ -3,7 +3,7 @@ layout: post
 title: Android四大组件以及相关用法——Activity
 categories: [Android,四大组件]
 description:  Android四大组件以及相关用法—Activity
-keywords: Android四大组件, 四大组件, Activity的用法, 生命周期, Activity的生命周期, Activity生命周期
+keywords: Android四大组件, 四大组件, Activity的用法, 生命周期, Activity的生命周期, Activity生命周期, Android四大组件
 ---
 
 ### 一、前言

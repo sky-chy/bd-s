@@ -3,12 +3,12 @@ layout: post
 title: Android四大组件以及相关用法——Server
 categories: [Android,四大组件]
 description:  Android四大组件以及相关用法—Server
-keywords: 四大组件, Android四大组件, Server, 服务, 启动服务, 销毁服务, 生命周期, Server的生命周期, Server生命周期
+keywords: 四大组件, Android四大组件, Server, 服务, 启动服务, 销毁服务, 生命周期, Server的生命周期, Server生命周期, Android四大组件
 ---
 
 ### 一、前言
 对于学习Android开发知识的人来说，得从Android四大组件学起；Android的四大组件就是基础之一，其次还有五大储存、六大布局，把这些基础研究透了，Android开发的也就信手拈来了
-学习四大组件，建议先从Activity开始，因为这个是在Android应用里面最常见的一个组件，然后再到Server，本文只介绍Server，话不多说，搞起！
+学习四大组件，建议先从Activity开始，因为这个是在Android应用里面最常见的一个组件，然后再到[Server](/2021/01/24/components-of-android-server/)，本文只介绍[Server](/2021/01/24/components-of-android-server/)，话不多说，搞起！
 
 ### 二、正文
 <span style="color:red;font-weight:bold">Server</span>： 是没有界面、生命周期比较长的程序，地位与Activity并列，然而，Server在后台运行，可跨进程调用，无法自己运行。
