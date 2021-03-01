@@ -58,6 +58,7 @@ keywords:  Android, 四大组件, ContentProvider, Android四大组件
       - ContentObserver ：观察ContentProvider中的数据变化，并将变化通知给外界。
 
 ### 三、注意事项
+无
 
 ### 四、相关资源
 无
